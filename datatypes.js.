@@ -1,0 +1,40 @@
+//name
+let name = "Treesa";
+console.log("Name:", name);
+console.log(typeof name);
+
+//number
+let age = 21;
+let cgpa = 8.1;
+console.log("Age:", age);
+console.log(typeof age);
+
+// 3. Boolean
+let isStudent = true;
+console.log("Is Student:", isStudent);
+console.log(typeof isStudent);
+
+// 4. Undefined
+let city;
+console.log("City:", city);
+console.log(typeof city);
+
+// 5. Null
+let phone = null;
+console.log("Phone:", phone);
+console.log(typeof phone);
+
+// 6. Array
+let skills = ["Python", "C", "JavaScript"];
+console.log("Skills:", skills);
+console.log(typeof skills);
+
+// 7. Object
+let student = {
+    name: "Treesa",
+    age: 21,
+    department: "Electronics and Biomedical Engineering"
+};
+
+console.log("Student Details:", student);
+console.log(typeof student);
